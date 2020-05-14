@@ -62,9 +62,11 @@ button {
   border-radius: 5px;
   border-color: black;
 }
+#box1 {
 
-#main {
-  background-color:black;
+}
+#big_box {
+  background-color: green; 
   grid-area: 'main';
 }
 
