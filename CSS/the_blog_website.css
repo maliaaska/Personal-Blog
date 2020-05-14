@@ -9,7 +9,7 @@
     grid-template-rows:  10vh 5vh 75vh 10vh ;
     grid-template-areas: 
     "hd"
-    "sd"
+    "nav"
     "main"
     "ft";
   }
@@ -23,7 +23,7 @@
     grid-template-rows: 50px 100px 300px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
+    "nav nav main main main main main main"
     "ft ft ft ft ft ft ft ft";
   }
 }
@@ -36,7 +36,7 @@
     grid-template-rows: 50px 100px 300px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
+    "nav nav main main main main main main"
     "ft ft ft ft ft ft ft ft";
   }
 } 
@@ -50,9 +50,16 @@
 
 }
 
-#sidebar {
+#navbar {
   background-color: tomato;
-  grid-area: 'sd';
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  grid-area: 'nav';
+}
+
+a {
+  
 }
 
 #main {
