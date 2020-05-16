@@ -72,6 +72,8 @@ button {
 }
 
 #main {
+  display: flex;
+  flex-direction: row;
   background-color: wheat;
   grid-area: 'main';
 }
@@ -91,8 +93,13 @@ button {
 
 .profile {
   height: 9fr;
+  margin: 2%;
+  width: 80%; 
+
 }
 
 .links {
   height: 1fr;
+  margin: 2%;
+  width: 20%;
 }
