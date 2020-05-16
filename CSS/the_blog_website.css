@@ -115,14 +115,18 @@ body{
   height: 100%;
   width: 100%;
 }
-button {
+a {
+  align-items: center;
   border-radius: 5px;
   border: 1px solid black;
   height: 50%;
   padding: 5px;
   background-color: #F1E3CB;
 }
-
+button {
+  height: 100%;
+  font-style: italic;
+}
 .footer {
   background-color: aqua;
   grid-area: 'ft';
