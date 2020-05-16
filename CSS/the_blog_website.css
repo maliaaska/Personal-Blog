@@ -1,12 +1,16 @@
+* { 
+  margin:0;
+  padding:0;
+}
+
 @media (max-width:599px){
   .box {
     border-radius: 5px;
-    border-color: black;
-    padding: 5px;
+    padding: 2px;
   }
   .container {
     display: grid;
-    grid-template-rows: 2fr 30fr 2fr ;
+    grid-template-rows: 8fr 60fr 2fr ;
     grid-template-areas: 
     "nav"
     "card"
@@ -16,8 +20,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 90%;
-    padding: 3%;
+    width: 100%;
   }
 
   .link {
@@ -37,11 +40,12 @@
     padding: 2px;
   }
   #navbar {
-    margin-bottom: 1px solid ;
+    border-bottom: 1px solid #7b5a5a;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     grid-area: 'nav';
+    margin: 2%;
   }
   .avatar {
     height: 80%;
@@ -108,14 +112,12 @@
 
 body{
   height: 100%;
-  width:100%;
+  width: 100%;
 }
 button {
   border-radius: 5px;
-  border-color: black;
+  border: 1px solid black;
 }
-
-
 
 .footer {
   background-color: aqua;
