@@ -72,10 +72,16 @@ button {
 }
 
 #main {
-  display: flex;
-  flex-direction: row;
-  background-color: wheat;
+  display: grid;
   grid-area: 'main';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas: 
+  "prf ln"
+  "des des";
+  
+  background-color: whitesmoke;
+  
 }
 
 #footer {
@@ -85,33 +91,36 @@ button {
 
 .box {
   padding: 5px;
-  
 }
 
 .container {
   height: 100%;
 }
-
+.description {
+  grid-area: des;
+  background-color: yellowgreen;
+}
 .img {
   border-radius: 5px;
   display: flex; 
   flex-direction: row;
-  height: 30%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   background-image: url('../img/IMG_6737.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .profile {
+  grid-area: prf;
   height: 9fr;
   margin: 2%;
-  width: 80%; 
+   
 
 }
 
 .links {
+  grid-area: ln;
   height: 1fr;
   margin: 2%;
-  width: 20%;
 }
