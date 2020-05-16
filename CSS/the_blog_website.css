@@ -31,6 +31,7 @@
     width: 20%;
   }
   .links {
+    border-bottom: 1px solid #7b5a5a;
     margin: 2px;
     display: flex;
     flex-direction: row;
@@ -117,6 +118,9 @@ body{
 button {
   border-radius: 5px;
   border: 1px solid black;
+  height: 50%;
+  padding: 5px;
+  background-color: #F1E3CB;
 }
 
 .footer {
