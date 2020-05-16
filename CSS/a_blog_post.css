@@ -58,13 +58,6 @@
   grid-area: 'nav';
 }
 
-button {
-  border-radius: 5px;
-  border-color: black;
-}
-#box1 {
-
-}
 #big_box {
   background-color: green; 
   grid-area: 'main';

@@ -13,6 +13,14 @@
     "main"
     "ft";
   }
+  #main {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    margin: auto;
+    width: 90%;
+    padding: 3%;
+  }
 }
 
 @media (min-width: 600px) and (max-width:900px) {
@@ -59,7 +67,8 @@
 }
 
 button {
-  
+  border-radius: 5px;
+  border-color: black;
 }
 
 #main {
@@ -80,3 +89,10 @@ button {
   height: 100%;
 }
 
+.profile {
+  height: 9fr;
+}
+
+.links {
+  height: 1fr;
+}
