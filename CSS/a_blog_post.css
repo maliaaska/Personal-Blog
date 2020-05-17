@@ -6,10 +6,10 @@ body{
 
 @media (max-width:599px){
   a {
-    margin-right: 20vw;
+    margin-right: 15vw;
   }
   #big_box {
-    background-color: green; 
+    height: 100%;
     grid-area: 'main';
   }
   #fb {
@@ -20,6 +20,7 @@ body{
   }
   #header {
     align-content: center;
+    border-bottom: 1px solid #7b5a5a;
     display: flex;
     flex-wrap: wrap;
     grid-area: "hd";
@@ -53,6 +54,9 @@ body{
   .footer {
     grid-area: 'ft';
   }
+  .inf {
+    height: 85%;
+  }
   .link {
     border-radius: 5px;
     display: flex; 
@@ -67,7 +71,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 20%;
+    height: 15%;
     padding: 2px;
   }
 }

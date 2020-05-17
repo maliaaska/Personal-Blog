@@ -15,6 +15,12 @@
     border-radius: 5px;
     padding: 2px;
   }
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
   .container {
     height: 100vh;
     display: grid;
@@ -24,13 +30,6 @@
     "card"
     "ft";
   }
-  #card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-  }
-  
   #navbar {
     border-bottom: 1px solid #7b5a5a;
     display: flex;
@@ -65,6 +64,7 @@
   button {
     height: 100%;
     font-style: italic;
+    width: 25vw;
   }
   .footer {
     display: inline-block;
