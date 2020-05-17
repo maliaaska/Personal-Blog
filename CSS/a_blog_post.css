@@ -1,127 +1,109 @@
 
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
 @media (max-width:599px){
+  a {
+    margin-right: 20vw;
+  }
+  #big_box {
+    background-color: green; 
+    grid-area: 'main';
+  }
+  #fb {
+    background-image: url('../img/facebook\ icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #header {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: "hd";
+  }
+  #inst {
+    background-image: url('../img/instagram\ icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #li {
+    background-image: url('../img/LinkedIn-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    grid-area: 'nav';
+  }
   .box {
+    padding: 5px;
     border-radius: 5px;
     border-color: black;
   }
-    .link {
-      border-radius: 5px;
-      display: flex; 
-      flex-direction: row;
-      height: 70%;
-      width: 20%;
-    }
-    .links {
-      border-bottom: 1px solid #7b5a5a;
-      margin: 2px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      height: 20%;
-      padding: 2px;
-    }
-    .avatar {
-      height: 80%;
-      margin: 2%;
-    }
-    .img {
-      border-radius: 5px;
-      display: flex; 
-      flex-direction: row;
-      height: 100%;
-      width: 100%;
-      background-image: url('../img/IMG_6737.jpeg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  
-    #fb {
-      background-image: url('../img/facebook\ icon.png');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  
-    #inst {
-      background-image: url('../img/instagram\ icon.png');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    #li {
-      background-image: url('../img/LinkedIn-icon.png');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  
-  
-  @media (min-width: 600px) and (max-width:900px) {
-    .container {
-      background-color: yellow;
-      display: grid;
-      grid-template-columns: stretch 300px 300px 300px;
-      grid-template-rows: 50px 100px 300px;
-      grid-template-areas: 
-      "hd hd hd hd hd hd hd hd"
-      "nav nav main main main main main main"
-      "ft ft ft ft ft ft ft ft";
-    }
+  .container {
+    height: 100vh;
   }
-  
-  @media (min-width:901px) {
-    .container {
-
-      background-color: gray;
-      display: grid;
-      grid-template-columns: stretch 300px 300px 300px;
-      grid-template-rows: 50px 100px 300px;
-      grid-template-areas: 
-      "hd hd hd hd hd hd hd hd"
-      "nav nav main main main main main main"
-      "ft ft ft ft ft ft ft ft";
-    }
-  } 
-  
-  body{
-    height: 100%;
-    width: 100%;
+  .footer {
+    grid-area: 'ft';
+  }
+  .link {
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: row;
+    height: 70%;
+    width: 20%;
+  }
+  .links {
+    border-bottom: 1px solid #7b5a5a;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    padding: 2px;
   }
 }
 
-#header {
-  align-content: center;
-  background-color: thistle;
-  display: flex;
-  flex-wrap: wrap;
-  grid-area: "hd";
-  justify-content: center;
-
+@media (min-width: 600px) and (max-width:900px) {
+  .container {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: stretch 300px 300px 300px;
+    grid-template-rows: 50px 100px 300px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "nav nav main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+  }
 }
 
-#navbar {
-  background-color: tomato;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  grid-area: 'nav';
+@media (min-width:901px) {
+  .container {
+
+    background-color: gray;
+    display: grid;
+    grid-template-columns: stretch 300px 300px 300px;
+    grid-template-rows: 50px 100px 300px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "nav nav main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+  }
+} 
+
+
+h3 {
+  text-decoration: underline;
+  font-style: italic;
 }
 
-#big_box {
-  background-color: green; 
-  grid-area: 'main';
-}
 
-.footer {
-  grid-area: 'ft';
-}
 
-.box {
-  padding: 5px;
-}
-
-.container {
-  height: 100vh;
-}
