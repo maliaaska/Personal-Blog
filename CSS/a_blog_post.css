@@ -9,6 +9,8 @@ body{
     margin-right: 15vw;
   }
   #big_box {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     grid-area: 'main';
   }
@@ -55,7 +57,40 @@ body{
     grid-area: 'ft';
   }
   .inf {
+    display: flex;
+    flex-direction: row;
+  }
+  .information {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr 3fr 3fr ;
+    grid-template-areas:
+    "inf_1"
+    "inf_2"
+    "inf_3"
+    "inf_4"
+    "inf_5";
     height: 85%;
+  }
+  .inf_1 {
+    display: flex;
+    grid-area: inf_1;
+  }
+  .inf_2 {
+    display: flex;
+    grid-area: inf_2;
+  }
+  .inf_3 {
+    display: flex;
+    grid-area: inf_3;
+  }
+  .inf_4 {
+    display: flex;
+    grid-area: inf_4;
+  }
+  .inf_5 {
+    display: flex;
+    grid-area: inf_5;
   }
   .link {
     border-radius: 5px;
@@ -104,7 +139,7 @@ body{
 } 
 
 
-h3 {
+h1 {
   text-decoration: underline;
   font-style: italic;
 }

@@ -4,7 +4,7 @@
 }
 
 @media (max-width:599px){
-  p {
+  .quot {
     font-size: 15px;
     font-style: italic;
     text-align: center; 
