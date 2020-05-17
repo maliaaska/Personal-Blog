@@ -5,7 +5,7 @@ html{
 }
 
 @media (max-width:599px){
-  a {
+  .button {
     margin-right: 15vw;
   }
   #big_box {
@@ -107,10 +107,8 @@ html{
   }
   .link {
     border-radius: 5px;
-    display: flex; 
-    flex-direction: row;
-    height: 70%;
-    width: 20%;
+    height: 100%;
+    width: 100%;
   }
   .links {
     border-bottom: 1px solid #7b5a5a;
@@ -121,6 +119,12 @@ html{
     align-items: center;
     height: 15%;
     padding: 2px;
+  }
+  .links a {
+    background-color: none;
+    border: none;
+    height: 70%;
+    width: 20%;
   }
 }
 
