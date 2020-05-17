@@ -3,6 +3,99 @@
     border-radius: 5px;
     border-color: black;
   }
+    .link {
+      border-radius: 5px;
+      display: flex; 
+      flex-direction: row;
+      height: 70%;
+      width: 20%;
+    }
+    .links {
+      border-bottom: 1px solid #7b5a5a;
+      margin: 2px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 20%;
+      padding: 2px;
+    }
+    #navbar {
+      border-bottom: 1px solid #7b5a5a;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      grid-area: 'nav';
+      margin: 2%;
+    }
+    .avatar {
+      height: 80%;
+      margin: 2%;
+    }
+    .img {
+      border-radius: 5px;
+      display: flex; 
+      flex-direction: row;
+      height: 100%;
+      width: 100%;
+      background-image: url('../img/IMG_6737.jpeg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    #fb {
+      background-image: url('../img/facebook\ icon.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    #inst {
+      background-image: url('../img/instagram\ icon.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #li {
+      background-image: url('../img/LinkedIn-icon.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+  
+  @media (min-width: 600px) and (max-width:900px) {
+    .container {
+      background-color: yellow;
+      display: grid;
+      grid-template-columns: stretch 300px 300px 300px;
+      grid-template-rows: 50px 100px 300px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "nav nav main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+    }
+  }
+  
+  @media (min-width:901px) {
+    .container {
+      background-color: gray;
+      display: grid;
+      grid-template-columns: stretch 300px 300px 300px;
+      grid-template-rows: 50px 100px 300px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "nav nav main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+    }
+  } 
+  
+  body{
+    height: 100%;
+    width: 100%;
+  }
+  }
 
   .container {
     display: grid;
