@@ -4,13 +4,21 @@
 }
 
 @media (max-width:599px){
+  p {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center; 
+    margin: auto;
+    
+  }
   .box {
     border-radius: 5px;
     padding: 2px;
   }
   .container {
+    height: 100vh;
     display: grid;
-    grid-template-rows: 8fr 60fr 2fr ;
+    grid-template-rows: 1fr 10fr 1fr ;
     grid-template-areas: 
     "nav"
     "card"
@@ -32,7 +40,7 @@
     margin: 2%;
   }
   .avatar {
-    height: 80%;
+    height: 100%;
     margin: 2%;
   }
   .img {
@@ -46,6 +54,8 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+
 }
 
 @media (min-width: 600px) and (max-width:900px) {
@@ -91,7 +101,9 @@ button {
   font-style: italic;
 }
 .footer {
-  background-color: aqua;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
   grid-area: 'ft';
 }
 
