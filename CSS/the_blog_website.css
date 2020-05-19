@@ -169,7 +169,11 @@ body{
   }
 } 
 
-
+.container {
+  height: 100vh;
+  max-width: 805px;
+  margin: auto;
+}
 
 
 
