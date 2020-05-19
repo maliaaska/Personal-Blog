@@ -10,28 +10,7 @@ body{
 }
 
 @media (max-width:440px){
-  .avatar {
-    height: 100%;
-    margin: 2%;
-  }
-  .box {
-    border-radius: 5px;
-    padding: 2px;
-  }
-  .button {
-    align-items: center;
-    border-radius: 5px;
-    border: 1px solid black;
-    height: 50%;
-    padding: 5px;
-    background-color: #F1E3CB;
-  }
-  .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-  }
+  
   .container {
     height: 100vh;
     display: grid;
@@ -40,23 +19,6 @@ body{
     "nav"
     "card"
     "ft";
-  }
-  .img {
-    border-radius: 5px;
-    display: flex; 
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-    background-image: url('../img/IMG_6737.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .footer {
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-    grid-area: 'ft';
   }
   .quot {
     font-size: 15px;
@@ -68,28 +30,6 @@ body{
 }
 
 @media (min-width: 441px) and (max-width:900px) {
-  .avatar {
-    height: 100%;
-    margin: 2%;
-  }
-  .box {
-    border-radius: 5px;
-    padding: 2px;
-  }
-  .button {
-    align-items: center;
-    border-radius: 5px;
-    border: 1px solid black;
-    height: 50%;
-    padding: 5px;
-    background-color: #F1E3CB;
-  }
-  .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-  }
   .container {
     height: 100vh;
     display: grid;
@@ -98,23 +38,6 @@ body{
     "nav"
     "card"
     "ft";
-  }
-  .img {
-    border-radius: 5px;
-    display: flex; 
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-    background-image: url('../img/IMG_6737.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .footer {
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-    grid-area: 'ft';
   }
   .quot {
     font-size: 15px;
@@ -125,28 +48,6 @@ body{
 }
 
 @media (min-width:901px) {
-  .avatar {
-    height: 100%;
-    margin: 2%;
-  }
-  .box {
-    border-radius: 5px;
-    padding: 2px;
-  }
-  .button {
-    align-items: center;
-    border-radius: 5px;
-    border: 1px solid black;
-    height: 50%;
-    padding: 5px;
-    background-color: #F1E3CB;
-  }
-  .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-  }
   .container {
     height: 100vh;
     display: grid;
@@ -156,23 +57,6 @@ body{
     "card"
     "ft";
   }
-  .img {
-    border-radius: 5px;
-    display: flex; 
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-    background-image: url('../img/IMG_6737.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .footer {
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-    grid-area: 'ft';
-  }
   .quot {
     font-size: 15px;
     font-style: italic;
@@ -180,16 +64,56 @@ body{
     margin: auto;
   }
 } 
+.box {
+  border-radius: 5px;
+  padding: 2px;
+}
+
 button {
   height: 100%;
   font-style: italic;
   width: 25vw;
   max-width: 100px;
 }
+.button {
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 50%;
+  padding: 5px;
+  background-color: #F1E3CB;
+}
+.avatar {
+  height: 100%;
+  margin: 2%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
 .container {
   height: 100vh;
   max-width: 805px;
   margin: auto;
+}
+.footer {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  grid-area: 'ft';
+}
+.img {
+  border-radius: 5px;
+  display: flex; 
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/IMG_6737.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbar {
   border-bottom: 1px solid #7b5a5a;
