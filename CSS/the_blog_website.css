@@ -15,7 +15,7 @@ body{
     font-style: italic;
     width: 25vw;
   }
-  #navbar {
+  .navbar {
     border-bottom: 1px solid #7b5a5a;
     display: flex;
     flex-wrap: wrap;
@@ -48,7 +48,7 @@ body{
   .container {
     height: 100vh;
     display: grid;
-    grid-template-rows: 1fr 10fr 1fr ;
+    grid-template-rows: 1.2fr 10fr 1fr ;
     grid-template-areas: 
     "nav"
     "card"
@@ -78,8 +78,6 @@ body{
     margin: auto;
     
   }
-
-
 }
 
 @media (min-width: 441px) and (max-width:900px) {
@@ -149,14 +147,10 @@ body{
     font-style: italic;
     text-align: center; 
     margin: auto;
-    
   }
-
-
-}
 }
 
-@media (min-width:901px) {
+/* @media (min-width:901px) {
   .container {
     background-color: gray;
     display: grid;
@@ -167,13 +161,11 @@ body{
     "nav nav main main main main main main"
     "ft ft ft ft ft ft ft ft";
   }
-} 
+}  */
 
 .container {
   height: 100vh;
   max-width: 805px;
   margin: auto;
 }
-
-
 
