@@ -72,7 +72,6 @@ body{
 button {
   height: 100%;
   font-style: italic;
-  width: 25vw;
   max-width: 100px;
 }
 .button {
@@ -122,4 +121,7 @@ button {
   align-content: center;
   grid-area: 'nav';
   margin: 2%;
+}
+.quot {
+  color: #FFC400;
 }
