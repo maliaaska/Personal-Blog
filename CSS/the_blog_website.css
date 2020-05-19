@@ -4,18 +4,40 @@
   font-family: 'Fira Sans Condensed', sans-serif;
 
 }
+body{
+  height: 100%;
+  width: 100%;
+}
 
-@media (max-width:599px){
-  .quot {
-    font-size: 15px;
+@media (max-width:440px){
+  button {
+    height: 100%;
     font-style: italic;
-    text-align: center; 
-    margin: auto;
-    
+    width: 25vw;
+  }
+  #navbar {
+    border-bottom: 1px solid #7b5a5a;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    grid-area: 'nav';
+    margin: 2%;
+  }
+  .avatar {
+    height: 100%;
+    margin: 2%;
   }
   .box {
     border-radius: 5px;
     padding: 2px;
+  }
+  .button {
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50%;
+    padding: 5px;
+    background-color: #F1E3CB;
   }
   .card {
     display: flex;
@@ -32,6 +54,40 @@
     "card"
     "ft";
   }
+  .img {
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/IMG_6737.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    grid-area: 'ft';
+  }
+  .quot {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center; 
+    margin: auto;
+    
+  }
+
+
+}
+
+@media (min-width: 441px) and (max-width:900px) {
+  button {
+    height: 100%;
+    font-style: italic;
+    width: 25vw;
+  }
   #navbar {
     border-bottom: 1px solid #7b5a5a;
     display: flex;
@@ -44,6 +100,33 @@
     height: 100%;
     margin: 2%;
   }
+  .box {
+    border-radius: 5px;
+    padding: 2px;
+  }
+  .button {
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50%;
+    padding: 5px;
+    background-color: #F1E3CB;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr ;
+    grid-template-areas: 
+    "nav"
+    "card"
+    "ft";
+  }
   .img {
     border-radius: 5px;
     display: flex; 
@@ -55,40 +138,22 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .button {
-    align-items: center;
-    border-radius: 5px;
-    border: 1px solid black;
-    height: 50%;
-    padding: 5px;
-    background-color: #F1E3CB;
-  }
-  button {
-    height: 100%;
-    font-style: italic;
-    width: 25vw;
-  }
   .footer {
     display: inline-block;
     text-align: center;
     margin: auto;
     grid-area: 'ft';
   }
+  .quot {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center; 
+    margin: auto;
+    
+  }
 
 
 }
-
-@media (min-width: 600px) and (max-width:900px) {
-  .container {
-    background-color: yellow;
-    display: grid;
-    grid-template-columns: stretch 300px 300px 300px;
-    grid-template-rows: 50px 100px 300px;
-    grid-template-areas: 
-    "hd hd hd hd hd hd hd hd"
-    "nav nav main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-  }
 }
 
 @media (min-width:901px) {
@@ -104,10 +169,6 @@
   }
 } 
 
-body{
-  height: 100%;
-  width: 100%;
-}
 
 
 
