@@ -1,4 +1,10 @@
 
+* { 
+  margin:0;
+  padding:0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+}
 html{
   height: 100vh;
   width: 100vw;
@@ -50,9 +56,7 @@ html{
     border-radius: 5px;
     border-color: black;
   }
-  .container {
-    height: 100vh;
-  }
+
   .footer {
     grid-area: 'ft';
   }
@@ -280,6 +284,12 @@ html{
 h1 {
   text-decoration: underline;
   font-style: italic;
+}
+
+.container {
+  height: 100vh;
+  max-width: 805px;
+  margin: auto;
 }
 
 
