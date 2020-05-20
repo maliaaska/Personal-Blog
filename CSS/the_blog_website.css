@@ -68,19 +68,23 @@ body{
   border-radius: 5px;
   padding: 2px;
 }
-
 button {
   height: 100%;
   font-style: italic;
   max-width: 100px;
+  background-color: #F1E3CB;
+  border: none;
+  text-align: center;
 }
 .button {
   align-items: center;
   border-radius: 5px;
   border: 1px solid black;
   height: 50%;
+  min-width: 75px;
   padding: 5px;
   background-color: #F1E3CB;
+  text-align: center;
 }
 .avatar {
   height: 100%;
