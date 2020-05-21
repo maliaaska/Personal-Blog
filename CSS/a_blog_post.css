@@ -301,6 +301,7 @@ h3.bio {
   width: 100%;
   flex-direction: row;
   overflow-wrap: normal;
+  max-width: 95%;
 }
 .inf_1 {
   grid-area: inf_1;
