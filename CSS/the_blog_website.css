@@ -88,6 +88,13 @@ button {
 .avatar {
   height: 100%;
   margin: 2%;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: 1fr 1fr 1fr  ;
+  grid-template-areas:
+  "profile"
+  "sunset"
+  'waterfall';
 }
 .card {
   display: flex;
@@ -106,13 +113,35 @@ button {
   margin: auto;
   grid-area: 'ft';
 }
-.img {
+.profile{
   border-radius: 5px;
   display: flex; 
   flex-direction: row;
   height: 100%;
   width: 100%;
   background-image: url('../img/IMG_6737.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sunset{
+  border-radius: 5px;
+  display: flex; 
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/sunset.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.waterfall{
+  border-radius: 5px;
+  display: flex; 
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/waterfall.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
