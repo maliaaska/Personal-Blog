@@ -60,7 +60,7 @@ html{
   .information {
     display: grid;
     grid-gap: 5px;
-    grid-template-rows: 1fr 1fr 1fr 3fr 3fr ;
+    grid-template-rows: 1fr 1fr 1fr 2fr 3fr ;
     grid-template-areas:
     "inf_1"
     "inf_2"
@@ -68,16 +68,6 @@ html{
     "inf_4"
     "inf_5";
     height: 85%;
-  }
-  .inf_5 {
-    display: flex;
-    grid-area: inf_5;
-    background-image: url('../img/IMG_6815.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-  
   }
   .link {
     border-radius: 5px;
@@ -162,16 +152,6 @@ html{
     "inf_5";
     height: 85%;
   }
-  .inf_5 {
-    display: flex;
-    grid-area: inf_5;
-    background-image: url('../img/IMG_6815.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-  
-  }
   .link {
     border-radius: 5px;
     height: 100%;
@@ -217,30 +197,12 @@ html{
     height: 100%;
     grid-area: 'main';
   }
-  #fb {
-    background-image: url('../img/facebook\ icon.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   #header {
     align-content: center;
     border-bottom: 1px solid #7b5a5a;
     display: flex;
     flex-wrap: wrap;
     grid-area: "hd";
-  }
-  #inst {
-    background-image: url('../img/instagram\ icon.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #li {
-    background-image: url('../img/LinkedIn-icon.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   #navbar {
     display: flex;
@@ -270,16 +232,6 @@ html{
     "inf_4"
     "inf_5";
     height: 85%;
-  }
-  .inf_5 {
-    display: flex;
-    grid-area: inf_5;
-    background-image: url('../img/IMG_6815.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-  
   }
   .link {
     border-radius: 5px;
@@ -312,6 +264,7 @@ html{
     justify-content: right;
   }
 } 
+
 h1 {
   text-decoration: underline;
   font-style: italic;
@@ -319,6 +272,9 @@ h1 {
 h3 {
   width: 29vw;
   color:#56B4E9;
+}
+h3.bio {
+  min-width: 29vw;
 }
 #fb {
   background-image: url('../img/facebook\ icon.png');
@@ -343,6 +299,31 @@ h3 {
   display: flex;
   width: 100%;
   flex-direction: row;
+  overflow-wrap: normal;
+}
+.inf_1 {
+  grid-area: inf_1;
+}
+.inf_2 {
+  grid-area: inf_2;
+}
+.inf_3 {
+  grid-area: inf_3;
+}
+.inf_4 {
+  grid-area: inf_4;
+  display: flex;
+  flex-direction: row;
+  
+}
+.inf_5 {
+  display: flex;
+    grid-area: inf_5;
+    background-image: url('../img/IMG_6815.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 
